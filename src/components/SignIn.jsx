@@ -6,7 +6,6 @@ import axios from "axios";
 
 const SignIn = () => {
   
-  const [showPassword, setShowPassword] = useState(false);
   const [email, setEmail] = useState(""); 
   const [password, setPassword] = useState(""); 
 
